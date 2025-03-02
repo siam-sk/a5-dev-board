@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5 Dev Board-Blog</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- TailwindCSS CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                            poppins : ['Poppins', 'san-serif']
+                        },
+                }
+            }
+        }
+    </script>
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class="mx-auto px-36 pt-4 bg-blue-50 font-sora max-w-screen-2xl min-h-screen">
+    <header>
+        <nav class="py-2 px-4 mb-3 rounded-xl bg-white flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="./assets/logo.png" alt="">
+                <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div>
+                <div class="flex items-center gap-6">
+                    <div class="py-1 px-2.5 rounded-2xl bg-gray-200 flex items-center gap-2">
+                        <img class="w-5" src="./assets/checkbox.png" alt="">
+                        <h2 class="relative bottom-0.5 text-xl font-bold">23</h2>
+                    </div>
+                    <img src="./assets/theme-btn.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
